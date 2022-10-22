@@ -91,8 +91,8 @@ aracın daha da geliştirilmesini teşvik etmek.
 
 
  Ömer Faruk Aslancan Lakabı theomers_  
-  https://youtube.com/theomers_  
-  https://www.instagram.com/theomers_  
+  https://www.youtube.com/channel/UC6fvrRAHA8XV8RimFjunHxw  
+  https://www.instagram.com/omerfarukaslancan_/  
 
 
 ## Orjinal Yazar
