@@ -1,4 +1,4 @@
-# CUPP - Common User Passwords Profiler
+# CUPP - Ortak Kullanıcı Parolaları Profil Oluşturucu
 
 [![Build Status](https://travis-ci.org/Mebus/cupp.svg?branch=master)](https://travis-ci.org/Mebus/cupp)
 [![Coverage Status](https://coveralls.io/repos/github/Mebus/cupp/badge.svg)](https://coveralls.io/github/Mebus/cupp)
@@ -8,94 +8,95 @@
  
 ## About
 
-  The most common form of authentication is the combination of a username
-  and a password or passphrase. If both match values stored within a locally
-  stored table, the user is authenticated for a connection. Password strength is
-  a measure of the difficulty involved in guessing or breaking the password
-  through cryptographic techniques or library-based automated testing of
-  alternate values.
+  Kimlik doğrulamanın en yaygın biçimi, bir kullanıcı adının birleşimidir.
+  ve bir parola veya parola. Her ikisi de yerel olarak depolanan değerlerle eşleşirse
+  saklanan tablo, kullanıcının bir bağlantı için kimliği doğrulanır. Şifre gücü
+  şifreyi tahmin etme veya kırma ile ilgili zorluğun bir ölçüsü
+  kriptografik teknikler veya kütüphane tabanlı otomatik testler yoluyla
+  alternatif değerler.
 
-  A weak password might be very short or only use alphanumberic characters,
-  making decryption simple. A weak password can also be one that is easily
-  guessed by someone profiling the user, such as a birthday, nickname, address,
-  name of a pet or relative, or a common word such as God, love, money or password.
+  Zayıf bir parola çok kısa olabilir veya yalnızca alfasayısal karakterler kullanabilir,
+  şifre çözmeyi basitleştirir. Zayıf bir şifre aynı zamanda kolayca bulunabilen bir şifre olabilir.
+  doğum günü, takma ad, adres gibi kullanıcının profilini çıkaran biri tarafından tahmin edilen,
+  bir evcil hayvanın veya akrabanın adı veya Tanrı, aşk, para veya şifre gibi yaygın bir kelime.
 
-  That is why CUPP was born, and it can be used in situations like legal
-  penetration tests or forensic crime investigations.
+  Bu yüzden CUPP doğdu ve yasal gibi durumlarda kullanılabilir.
+  sızma testleri veya adli suç soruşturmaları.
 
 
 Requirements
 ------------
 
-You need Python 3 to run CUPP.
+CUPP'yi çalıştırmak için Python 3'e ihtiyacınız var.
 
-Quick start
+Hızlı başlangıç
 -----------
 
     $ python3 cupp.py -h
 
-## Options
+## Ayarlar
 
   Usage: cupp.py [OPTIONS]
 
-        -h      this menu
+        -h      Yardım
 
-        -i      Interactive questions for user password profiling
+        -i      Kullanıcı parolası profili oluşturma için etkileşimli sorular
 
-        -w      Use this option to profile existing dictionary,
-                or WyD.pl output to make some pwnsauce :)
+        -w      Mevcut sözlüğün profilini çıkarmak için bu seçeneği kullanın,
+                veya biraz pwnsauce yapmak için WyD.pl çıktısı :)
 
-        -l      Download huge wordlists from repository
+        -l      Depodan büyük kelime listeleri indirin
 
-        -a      Parse default usernames and passwords directly from Alecto DB.
-                Project Alecto uses purified databases of Phenoelit and CIRT which where merged and enhanced.
+        -a      Varsayılan kullanıcı adlarını ve parolaları doğrudan Alecto DB'den ayrıştırın.
+                Project Alecto, birleştirilmiş ve geliştirilmiş olan Phenoelit ve CIRT'nin saflaştırılmış veritabanlarını kullanır.
 
-        -v      Version of the program
+        -v      Programın sürümü
 
 
 
-## Configuration
+## Yapılandırma
 
-   CUPP has configuration file cupp.cfg with instructions.
+   CUPP, talimatları içeren cupp.cfg yapılandırma dosyasına sahiptir.
 
-## Example (Fast forwarded)
+## Örnek (Hızlı iletildi)
 
 ![cupp-example](screenshots/cupp-example.gif)
 
-## License
+## Lisans
 
-  This program is free software; you can redistribute it and/or modify
-  it under the terms of the GNU General Public License as published by
-  the Free Software Foundation; either version 3 of the License, or
-  any later version.
+ Bu program ücretsiz bir yazılımdır; yeniden dağıtabilir ve/veya değiştirebilirsiniz
+  tarafından yayınlanan GNU Genel Kamu Lisansı koşulları altında
+  Özgür Yazılım Vakfı; Lisansın 3. sürümü veya
+  herhangi bir sonraki sürüm.
 
-  This program is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  GNU General Public License for more details.
+  Bu program faydalı olacağı ümidiyle dağıtılmıştır,
+  ancak HİÇBİR GARANTİ YOKTUR; zımni garanti bile olmadan
+  SATILABİLİRLİK veya BELİRLİ BİR AMACA UYGUNLUK. Bkz.
+  Daha fazla ayrıntı için GNU Genel Kamu Lisansı.
 
-  You should have received a copy of the GNU General Public License
-  along with this program; if not, write to the Free Software
-  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+  GNU Genel Kamu Lisansının bir kopyasını almış olmalısınız
+  bu programla birlikte; değilse, Özgür Yazılım'a yazın
+  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 ABD
 
   See './LICENSE' for more information.
 
-## Github import
-
-This project was imported into https://github.com/Mebus/cupp by Mebus from:  
-http://www.remote-exploit.org/content/cupp-3.0.tar.gz  
-http://www.remote-exploit.org/articles/misc_research__amp_code/index.html  
-to encourage further development of the tool.
-
-## Original author
-
-  Muris Kurgas aka j0rgan  
-  j0rgan@remote-exploit.org  
-  http://www.remote-exploit.org  
-  http://www.azuzi.me  
+## Github içe aktarma
 
 
-## Contributors
+Bu proje, Mebus tarafından https://github.com/Mebus/cupp'a şu adresten aktarılmıştır:
+http://www.remote-exploit.org/content/cupp-3.0.tar.gz
+http://www.remote-exploit.org/articles/misc_research__amp_code/index.html
+aracın daha da geliştirilmesini teşvik etmek.
+
+## Orijinal yazar
+
+
+ Ömer Faruk Aslancan Lakabı theomers_  
+  https://youtube.com/theomers_  
+  https://www.instagram.com/theomers_  
+
+
+## Orjinal Yazar
 
   * Bosko Petrovic aka bolexxx  
   bole_loser@hotmail.com  
