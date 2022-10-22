@@ -6,7 +6,7 @@
 [![Rawsec's CyberSecurity Inventory](https://inventory.raw.pm/img/badges/Rawsec-inventoried-FF5050_plastic.svg)](https://inventory.raw.pm/)
 
  
-## About
+## Bilgiler
 
   Kimlik doğrulamanın en yaygın biçimi, bir kullanıcı adının birleşimidir.
   ve bir parola veya parola. Her ikisi de yerel olarak depolanan değerlerle eşleşirse
@@ -24,7 +24,7 @@
   sızma testleri veya adli suç soruşturmaları.
 
 
-Requirements
+Gereksinimler
 ------------
 
 CUPP'yi çalıştırmak için Python 3'e ihtiyacınız var.
