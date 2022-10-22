@@ -57,10 +57,9 @@ Hızlı başlangıç
 ## Yapılandırma
 
    CUPP, talimatları içeren cupp.cfg yapılandırma dosyasına sahiptir.
-
-## Örnek (Hızlı iletildi)
-
-![cupp-example](screenshots/cupp-example.gif)
+   
+   ## ÖRNEK 
+![cupp-example](https://user-images.githubusercontent.com/115204712/197326912-66c65e84-ac55-4146-88c4-2054842f9e56.gif)
 
 ## Lisans
 
