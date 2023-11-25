@@ -3,14 +3,14 @@
 #  [Program]
 #
 #  CUPP
-#  Common User Passwords Profiler
+#  Ortak Kullanıcı Parolaları Profilcisi
 #
 #  [Author]
 #
-#  Muris Kurgas aka j0rgan
-#  j0rgan [at] remote-exploit [dot] org
-#  http://www.remote-exploit.org
-#  http://www.azuzi.me
+#  Ömer Faruk Aslancan
+#  
+#  Instagram: https://instagram.com/omerfarukaslancan_
+#  Youtube: https://www.youtube.com/channel/UC6fvrRAHA8XV8RimFjunHxw
 #
 #  [License]
 #
